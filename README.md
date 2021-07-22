@@ -7,9 +7,11 @@ Our Indian trademark highly depends on agriculture. Since 80% of the people are 
 
 
 *TEECHNOLOGY USED:*
+
 Deep Learning Technique/Neural Network, Image processing and Python Libraries
 
 *FEATURES*
+
 The main objective of our project is to apply and implement the CNN algorithm to identify the crop/plant is healthy or not and detect the diseased part in the plant.
 
 
