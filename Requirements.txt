@@ -1,0 +1,36 @@
+  Hardware Requirements:
+• Processor: Intel i3 or above
+• Laptop or PC
+• RAM: 4GB
+• ROM: 32GB
+
+ Software Requirements :
+• OS: Windows or Linux
+• Python 3
+• Setup tools and pip to be installed
+
+ User Requirement:
+• The application shall provide a visualization for the input provided by the user.
+• The system should be capable of capturing the leaf images of a plant and should
+  be able to access the system files.
+• When the user accesses the screen, it must appear within a limited amount of time.
+
+System modules or python libraries used:
+-NumPy
+-Pandas
+-tqdm
+-OpenCV
+-pip
+-Scikit-learn
+
+Installation - If you already installed NumPy and Scipy then following is the easiest way to
+install scikit-learn. Following command can be used to install scikit-learn via pip – pip install -
+U scikit-learn.
+Matplotlib-Following command can be used to install
+Matplotlib via pip -- pip3 install matplotlib.
+
+Other Requirements:
+-Python
+-Flask
+-TensorFlow
+-Machine learning with Jupyter Notebook.
