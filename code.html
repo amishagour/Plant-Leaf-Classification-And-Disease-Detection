@@ -1,0 +1,42 @@
+<head>
+<title>Plant Leaf classification and disease detection </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<style>
+body {
+background-image: url("static/images/leaf.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+</style>
+
+</head>
+
+<body >
+<center>
+<div class="hero-image" style="background-color: rgb(0, 255, 115); width:50%;
+opacity: 0.948; margin-top: 80;">
+<div class="hero-text">
+<form class="box" method="post" action="/predict" enctype="multipart/form-
+data">
+
+<div class="box__input">
+<center><div style="color: snow;"><h1>Upload image and get predictiions of
+leaf</h1></div></center>
+<center><input type="file" name="file" onchange="readURL(this);"
+/></center><br>
+<div style="color: snow;"></div><center><img id="blah" src="{{path}}"
+alt=" upload img and click predict" height="100" width="150"/></center></div><br>
+<div><center><button type="submit" class="button",style="color:
+snow;">Predict</button></center></div><br>
+{% if predictions.length != 0 %}
+<center><div id="predict" style="color: snow; font-size: large;">The result is :
+{{predictions}}</div></center>
+{% endif %}
+</div>
+</form>
+</div>
+</div>
+</center>
+
